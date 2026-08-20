@@ -1,0 +1,150 @@
+[
+    {
+        "role": "user",
+        "content": "I'm going to Goa"
+    },
+    {
+        "role": "assistant",
+        "content": "..."
+    },
+    {
+        "role": "user",
+        "content": "I am going to goa"
+    },
+    {
+        "role": "assistant",
+        "content": "Nice! Goa is great for beaches, food, nightlife, and heritage. When are you going, and would you like help with an itinerary, budget, hotels, or places to visit?"
+    },
+    {
+        "role": "user",
+        "content": "hi"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi! \ud83d\udc4b Planning your Goa trip? How can I help?"
+    },
+    {
+        "role": "user",
+        "content": "how are you"
+    },
+    {
+        "role": "assistant",
+        "content": "I\u2019m doing well, thanks! How are you? Excited about your Goa trip?"
+    },
+    {
+        "role": "user",
+        "content": "bye exit"
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye! Have a fantastic trip to Goa! \ud83d\udc4b"
+    },
+    {
+        "role": "user",
+        "content": "hi"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi again! \ud83d\udc4b How can I help?"
+    },
+    {
+        "role": "user",
+        "content": "how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I\u2019m doing great, thanks! How are you? \ud83d\ude0a"
+    },
+    {
+        "role": "user",
+        "content": "okay bye"
+    },
+    {
+        "role": "assistant",
+        "content": "Bye! Take care, and enjoy Goa! \ud83d\udc4b"
+    },
+    {
+        "role": "user",
+        "content": "exit "
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye! \ud83d\udc4b"
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in Goa?"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in goa"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in Goa?"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in Goa?"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in goa?"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in goa?"
+    },
+    {
+        "role": "assistant",
+        "content": "The weather in Goa is sunny and 30C"
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in America?"
+    },
+    {
+        "role": "assistant",
+        "content": "America is very large, so the weather varies widely. Which city or state do you mean\u2014for example, New York, Miami, California, or Texas?"
+    },
+    {
+        "role": "user",
+        "content": "what is the weather in Hyderabad?"
+    },
+    {
+        "type": "function_call",
+        "id": "fc_tmp_z6d4fpx462o",
+        "call_id": "call_LpHpA13jTW6ybe62lL68qUAV",
+        "name": "get_weather",
+        "arguments": "{\"city\":\"Hyderabad\"}"
+    },
+    {
+        "type": "function_call_output",
+        "call_id": "call_LpHpA13jTW6ybe62lL68qUAV",
+        "output": "{\"city\": \"Hyderabad\", \"temperature\": 30.8, \"weather_code\": 2}"
+    },
+    {
+        "role": "assistant",
+        "content": "Hyderabad is currently **30.8\u00b0C** with **partly cloudy skies**."
+    }
+]
